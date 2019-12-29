@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         toolbar=findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -34,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "item 2", Toast.LENGTH_SHORT).show();
         }else if(id==R.id.item3_id){
             Toast.makeText(this, "item 3", Toast.LENGTH_SHORT).show();
+        }else if(id==R.id.cart_id){
+            Toast.makeText(this, "cart", Toast.LENGTH_SHORT).show();
+        }else if(id==R.id.search_id){
+            Toast.makeText(this, "search", Toast.LENGTH_SHORT).show();
+        }else if(id==android.R.id.home){
+            finish();
         }
         return super.onOptionsItemSelected(item);
     }
