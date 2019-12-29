@@ -13,5 +13,4 @@
     app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     />
 
-
 </RelativeLayout>
