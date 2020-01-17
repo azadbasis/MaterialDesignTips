@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">MaterialDesignTips</string>
-    <string name="username">username:</string>
-    <string name="password">password:</string>
+    <string name="raised_button">RAISED BUTTON</string>
+    <string name="flat_button">FLAT BUTTON</string>
 </resources>

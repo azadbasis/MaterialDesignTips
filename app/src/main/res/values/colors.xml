@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorRaisedButton">#4CAF50</color><!--500-->
     <color name="colorRaisedButtonText">#FFFFFF</color>
+    <color name="colorFlatButton">#2196F3</color><!--500-->
 </resources>
