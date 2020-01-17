@@ -7,9 +7,15 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="CharacterOverflow">
 
-        <item name="android:textColor">@color/colorError</item>
+
+    <style name="RaisedButton" parent="Widget.AppCompat.Button.Colored">
+<!--500 for background tint-->
+        <item name="backgroundTint">@color/colorRaisedButton</item>
+        <item name="android:textColor">@color/colorRaisedButtonText</item>
 
     </style>
+
+
+
 </resources>
