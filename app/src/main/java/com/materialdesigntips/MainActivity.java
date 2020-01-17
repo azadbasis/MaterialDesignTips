@@ -1,5 +1,6 @@
 package com.materialdesigntips;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.view.View;
@@ -9,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     AppCompatButton raisedButton;
     AppCompatButton flatButton;
+    FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         raisedButton = (AppCompatButton) findViewById(R.id.raised_btn);
         flatButton = (AppCompatButton) findViewById(R.id.flat_btn);
+        fab = (FloatingActionButton) findViewById(R.id.fab_btn);
+
 
         raisedButton.setOnClickListener(new View.OnClickListener() {
 
@@ -33,6 +37,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Toast.makeText(getApplicationContext(),"Flat Button",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        fab.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(getApplicationContext(),"Floating Action Button",Toast.LENGTH_SHORT).show();
             }
         });
 
