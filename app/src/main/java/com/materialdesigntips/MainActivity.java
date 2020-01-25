@@ -1,26 +1,42 @@
 package com.materialdesigntips;
 
 import android.os.Bundle;
+import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatRadioButton;
-import android.widget.CompoundButton;
+import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    AppCompatRadioButton radioButton;
+
+    RadioGroup radioGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        radioButton = (AppCompatRadioButton) findViewById(R.id.RadioButton1_id);
+        radioGroup = (RadioGroup) findViewById(R.id.radioGroup_id);
 
-        radioButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+            public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
 
-                System.out.println(b);
+                switch (i) {
+
+                    case R.id.RadioButton1_id:
+
+                        Toast.makeText(getApplicationContext(),"RadioButton 1",Toast.LENGTH_LONG).show();
+
+                        break;
+
+                    case R.id.RadioButton2_id:
+
+                        Toast.makeText(getApplicationContext(),"RadioButton 2",Toast.LENGTH_LONG).show();
+
+                        break;
+
+                }
             }
         });
 
