@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.AppCompatCheckBox
+    <android.support.v7.widget.AppCompatRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/checkbox_id"
+        android:id="@+id/RadioButton1_id"
+        android:text="@string/radiobutton_1"
         android:layout_margin="16dp"
-        android:text="@string/checkbox"
-        android:checked="false"
-        app:theme="@style/CheckBoxTheme"/>
+        app:theme="@style/RadioButtonTheme"
+        android:checked="false"/>
+
 
 </RelativeLayout>

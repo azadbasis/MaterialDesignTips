@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">MaterialDesignTips</string>
-    <string name="checkbox">CheckBox</string>
+    <string name="radiobutton_1">RadioButton 1</string>
 
 </resources>
