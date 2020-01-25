@@ -9,4 +9,8 @@
         <item name="android:navigationBarColor">@color/colorPrimary</item>
     </style>
 
+    <style name="SwitchTheme">
+        <item name="colorAccent">@color/colorSwitch</item>
+    </style>
+
 </resources>

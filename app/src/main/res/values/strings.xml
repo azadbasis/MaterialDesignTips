@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MaterialDesignTips</string>
+    <string name="switch_off_on">Switch OFF/ON</string>
 </resources>
