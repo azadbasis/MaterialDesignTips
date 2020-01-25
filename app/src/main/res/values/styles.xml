@@ -9,8 +9,11 @@
         <item name="android:navigationBarColor">@color/colorPrimary</item>
     </style>
 
-    <style name="SwitchTheme">
-        <item name="colorAccent">@color/colorSwitch</item>
-    </style>
+    <style name="CheckBoxTheme">
 
+        <item name="colorAccent">@color/colorEnable</item>
+        <item name="colorControlNormal">@color/colorDisable</item>
+
+
+    </style>
 </resources>

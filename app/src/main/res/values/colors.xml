@@ -3,5 +3,6 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorSwitch">#40C4FF</color>//A200
+    <color name="colorEnable">#FF5252</color>//A200
+    <color name="colorDisable">#000000</color>//A200
 </resources>

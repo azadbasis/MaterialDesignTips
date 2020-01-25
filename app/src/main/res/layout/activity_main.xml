@@ -6,16 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.SwitchCompat
+    <android.support.v7.widget.AppCompatCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/switch_id"
+        android:id="@+id/checkbox_id"
         android:layout_margin="16dp"
-        android:text="@string/switch_off_on"
-        app:theme="@style/SwitchTheme"
-        android:checked="false"/>
-
-
-
+        android:text="@string/checkbox"
+        android:checked="false"
+        app:theme="@style/CheckBoxTheme"/>
 
 </RelativeLayout>
